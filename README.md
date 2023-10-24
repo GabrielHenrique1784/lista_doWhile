@@ -1,4 +1,4 @@
-# Lista de Exercícios
+# Lista de Exercícios - Do...While
 
 ## [Problema 01: Nota entre 0 e 10](01_nota0-10.html)
 Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.
