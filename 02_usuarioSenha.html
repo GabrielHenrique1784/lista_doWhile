@@ -5,12 +5,14 @@
     Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informações.
     */
 
-    //Entrada
+let nome = prompt("Diga seu nome de usuário")
+let senha = prompt("Diga sua senha")
 
+    while (nome == senha) {
+        alert("O nome de usuário não pode ser igual a senha")
+        senha = prompt("Diga sua senha")
+    }
 
-    //Processamento
-
-
-    //Saída
+    alert("Sua senha é " + senha + " e seu nome de usuário é " + nome)
 
 </script>
